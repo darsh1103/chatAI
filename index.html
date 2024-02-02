@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,minimum-scale=1">
+		<title>Chat AI</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+        <div class="chat-ai"></div>
+        <script src="ChatAI.js"></script>
+        <script>
+        // Create a new ChatAI instance
+		new ChatAI({
+    container: '.chat-ai',
+    api_key: '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',
+    model: 'gpt-3.5-turbo'
+});
+        </script>
+	</body>
+</html>
